@@ -39,6 +39,7 @@ HTML >>>>
 </html>
 
 CSS >>>>>
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1a1a1a, #333);
@@ -130,6 +131,7 @@ body {
 
 
 JS >>>>
+
 function Calculate(){
     let x = +document.getElementById("x").value
     let y = +document.getElementById("y").value
