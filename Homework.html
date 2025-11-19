@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Homework.css">
+    <title>เครื่องคิดเลขขขขขข</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1 class="calculator-title">เครื่องคิดเลข</h1>
+
+        <div class="calculator-inputs">
+            <input id="x" type="number" placeholder="ตัวเลขแรก" class="calculator-number">
+            
+            <select id="symbol" class="calculator-number">
+                <option value="add">บวก +</option>
+                <option value="subtract">ลบ -</option>
+                <option value="multiply">คูณ x</option>
+                <option value="divide">หาร /</option>
+            </select>
+            
+            <input id="y" type="number" placeholder="ตัวเลขที่สอง" class="calculator-number">
+
+            <button class="calculator-button" onclick="Calculate()">คำนวณ</button>
+        </div>
+
+        <div class="calculator-result">
+            <h2>คำตอบ</h2>
+            <p id="result">-</p>
+        </div>
+    </div>
+
+    <script src="Homework.js"></script>
+</body>
+</html>
